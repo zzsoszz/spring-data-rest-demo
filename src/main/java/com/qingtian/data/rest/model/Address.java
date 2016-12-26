@@ -21,10 +21,6 @@ public class Address {
 	
 	String road;
 	
-//	@ManyToOne(optional = true)   
-//    @JoinColumn(name="user_id",nullable=false)
-//	private User user;
-	
 	
 	public Long getId() {
 		return id;
@@ -32,12 +28,7 @@ public class Address {
 	public void setId(Long id) {
 		this.id = id;
 	}
-//	public User getUser() {
-//		return user;
-//	}
-//	public void setUser(User user) {
-//		this.user = user;
-//	}
+
 	public String getProvince() {
 		return province;
 	}
@@ -59,3 +50,14 @@ public class Address {
 	
 	
 }
+
+
+//@ManyToOne(optional = true)   
+//@JoinColumn(name="user_id",nullable=false)
+//private User user;
+//public User getUser() {
+//	return user;
+//}
+//public void setUser(User user) {
+//	this.user = user;
+//}

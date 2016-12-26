@@ -23,7 +23,7 @@ public class User {
 	
 	String age;
 	
-	@OneToMany(cascade={CascadeType.ALL}) //,mappedBy ="user"
+	@OneToMany(cascade={CascadeType.ALL})
 	Set<Address> address;
 	public Set<Address> getAddress() {
 		return address;
@@ -66,5 +66,6 @@ public class User {
 		this.age = age;
 	}
 
-
 }
+
+//,mappedBy ="user"
